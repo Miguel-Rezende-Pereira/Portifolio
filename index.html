@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<button id="theme-toggle"> Modo Claro</button>
+    <h1>Portifolio <span>Do zzk</span></h1>
+    <nav>
+        <ul class="navegação-principal"   >
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portifolio">Portifólio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </nav>
+</header>
+
+<section aria-label="seção curriculo download Miguel" class="section-div">
+    <div>
+        <h2>Hi there I'm</h2>
+        <h2 class="digitando">Web developer and tipster  </h2>
+        <p>Hello, I’m Miguel Rezende, and I am currently studying at Colégio Técnico Cotemig. I seek to constantly enhance my knowledge, develop new skills, and gain experience that contributes to my professional growth, especially in the field of technology.
+ </p>
+
+ <a href="#">download CV</a>
+        </div>
+    <img src="europa.png.jpg" alt="Foto de Perfil">
+
+<footer>
+    
+</footer>
+
+
+</section>
+
+<main>
+    <article aria-label="seção sobre mim" class="sobre">
+        <div class="sobre_titulo">
+            <h1>About Me</h1> 
+            <p>Professional Profile - There is All about me</p>
+        </div>
+        
+        <div class="sobre_container">
+            <img src="foto portifolio.jpeg" alt="Foto de Perfil">
+            <!-- br serve para dar um salto paragrafo, quebrar linha. p serve para paragrafo -->
+            <div class="sobre_conteudo">
+                <div class="sobre_texto">
+                    <h1>I'm Miguel Rezende</h1>
+                    <p> I´m 18 years old, I am passionate about technology and progamming.<br>During my free time i like play soccer and watch movies, also like to study new thing and lern new skills.
+                
+                <div class="sobre_info">
+                    <p><i class="fa-solid fa-calendar-days"></i>Date of birth: 15/11/08.</p>
+                    <p><i class="fa-solid fa-location-dot"></i>Address: Belo Horizonte - MG</p>
+                    <p><i class="fa-sharp fa-solid fa-globe"></i>Spoken Languages: Br and Us</p>
+                    <p><i class="fa-solid fa-flag"></i>Nationality: Brazilian</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>Phone: +55 31 99818-2794</p>
+                    <p><i class="fa-solid fa-envelope"></i>Gmail: Rezendepmiguel@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </article>
+<!-- SEÇÃO SKILLS AVANÇADA -->
+    <section id="skills" class="skills-section">
+        <div class="skills_titulo">
+            <h1>My Skills</h1>
+            <p>Hover over the cards to explore my technical stack</p>
+        </div>
+
+        <div class="skills_grid">
+
+            <div class="skill_card">
+                <div class="skill_card_content">
+                    <h3>HTML</h3>
+                    <p class="skill_level">Advanced</p>
+                    <p class="skill_desc">Structural semantics, accessibility, and modern responsive markup.</p>
+                </div>
+            </div>
+
+            
+            <div class="skill_card">
+                <div class="skill_card_content">
+                    <h3>CSS</h3>
+                    <p class="skill_level">Intermediate</p>
+                    <p class="skill_desc">Flexbox, CSS Grid, animations, variables, and responsive layouts.</p>
+                </div>
+            </div>
+
+            
+            <div class="skill_card">
+                <div class="skill_card_content">
+                    <h3>C#</h3>
+                    <p class="skill_level">Intermediate</p>
+                    <p class="skill_desc">Object-oriented programming, logic, and backend development.</p>
+                </div>
+            </div>
+
+
+            <div class="skill_card">
+                <div class="skill_card_content">
+                    <h3>PHP</h3>
+                    <p class="skill_level">Intermediate</p>
+                    <p class="skill_desc">Script, database and integration of systems.</p>
+                </div>
+            </div>
+
+            <div class="skill_card">
+                <div class="skill_card_content">
+                    <h3>Git</h3>
+                    <p class="skill_level">Beginner</p>
+                    <p class="skill_desc">Collaborative and controller </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+<footer class="rodape" id="contact">
+    <div class="rodape-container">
+
+        <div class="rodape-marca">
+            <h2>Portifolio <span>Do zzk</span></h2>
+            <p>
+                Transformando ideias em projetos através da tecnologia
+                e da programação.
+            </p>
+        </div>
+
+        <div class="rodape-links">
+            <h3>Navegação</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#portifolio">Portfólio</a>
+        </div>
+
+        <div class="rodape-contato">
+            <h3>Entre em contato</h3>
+            <p>Tem uma ideia ou um projeto? Vamos conversar!</p>
+
+            <a
+                class="rodape-email"
+                href="mailto:Rezendepmiguel@gmail.com"
+            >
+                Enviar e-mail ↗
+            </a>
+        </div>
+
+    </div>
+
+    <div class="rodape-final">
+        <p>
+            &copy; <span id="anoAtual"></span>
+            Miguel Rezende. Todos os direitos reservados.
+        </p>
+
+        <a href="#home" class="voltar-topo">
+
+        </a>
+    </div>
+</footer>
+
+<script>
+    document.getElementById("anoAtual").textContent =
+        new Date().getFullYear();
+</script>
+
+
+
+<script src="script.js" defer></script>
+</body>
+</html>
